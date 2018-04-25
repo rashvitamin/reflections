@@ -1,0 +1,76 @@
+
+
+Q. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The use of the diff -u "Old file Version" "new file version" gave the changes that were made to the old file.
+
+I do a lot of incremental update and follow a manual practise of creating file version. So, the idea is same to know what changes i have made to the old code if incase the newer code does not work. In such events I can check with the older code.
+
+So, the "diff -u" command line tool > cuts the crap and directly give the difference in the 2 files; Thereby making the debugging process simpler!
+
+
+
+
+Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having the entire history logged while developing the code will give the glimps of the entire journey of iterative development of the algorithm. The experience dervied from this journey will help in future coding.
+
+
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of Manual Commit vs Automatically saved versions 
+
+1. Commits are more logically 
+2. Commits history is easy to track
+3. Diff between commits yeilds desired inferences.
+4. Commits can be made at the right time when a logical change is made in the code
+
+
+Cons of Manual Commit vs Automatically saved versions 
+
+1. Commits can be random if the person is not having judgement while commiting
+2. Files are always saved automatically whereas a person can fail or forget to commit manually
+
+
+
+
+Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In case of programming, multiple files are interconnected/interlinked. So, change in one affect the entire project. So, git keeps a track of all the files in the repository.
+
+In case of Google Docs, each file is separate and is not interlinked. For example, a change in the paragram in 1 document is not going to affect the meaning or information on the other document.
+
+
+
+Lect 22:
+
+Q. How can you use the commands git log and git diff to view the history of files?
+
+Git Log will give the history of commits starting from the most recent commits. It will give you a colon : and when you press Enter, it will show the next sets of commits. You can press 'q' to quit or exit out of the Git Log.
+
+On the other hand, Git Diff needs 2 commit ID to give a difference or comparision between the version of the files during commits. You can give the complete COMMIT ID or the 1st 4 or more characters of the COMMIT ID.  A general practice is - git diff OLD_COMMIT_ID NEW_COMMIT_ID
+
+
+
+Lect 26:
+
+Q. How might using version control make you more confident to make changes that could break something?
+
+By having version control, I have the confidence or surity of reverting back to the previous working version of the code.
+So, I can experiment and make changes which my break the code as there is always previous many versions available for me to revert back to.
+
+Lect 31:
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+Honestly, I am not comfortable to change or implement global git setting. I will skip this for now and will later try to make the git workspace 
+customization on the git in my virtual environment.
+
+
+
+
+
+
+
+
