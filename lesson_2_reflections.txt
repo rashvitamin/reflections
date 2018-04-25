@@ -1,0 +1,17 @@
+Lect 5:
+
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a git repository by running git init, a hidden folder named ".git" which has all the version control
+related meta data gets created. 
+
+Initially, no commits are made on its own. You can view the same with git log and git status. git status give 
+all the information about the files that are there and are affected/changed
+
+
+Lect 8:
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is the intermidiate stage between the working directory and the repository. Staging Area provides the flexiblity of deciding which files are to be version controlled in a particular commit. git add "filename" adds the file to the staging area and the git reset "filename" removes the file from the staging area.
+
