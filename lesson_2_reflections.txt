@@ -43,4 +43,15 @@ The diagrams help to understand the parents of the commit. Each commit has a par
 It provides us the information about which branches or/and commits are reachable and which are not.
 
 
+Lect 26 :
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is a combination of files/features together. Its like - we add a feature to the main code.
+
+By representing the branches and commit nodes by diagram, we have a reference of the parent of the commit and the reachability of a branch.
+
+
+
+
 
