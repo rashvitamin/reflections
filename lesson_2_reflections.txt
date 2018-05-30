@@ -53,5 +53,16 @@ By representing the branches and commit nodes by diagram, we have a reference of
 
 
 
+Lect 33 :
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic Merging is handled by Git in most cases but when there are conflicts git cannot distinguish or think like humans to determine which version of code is most suitable for the use case.
+
+So, with Manual Merging the developers can interact with each other to figure out which portion of the code is necessary and their by can have the most efficient and necessary code/content in the file thereby avoiding redundancy.
+
+
+
+
 
 
