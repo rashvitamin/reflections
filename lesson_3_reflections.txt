@@ -7,3 +7,15 @@ Q. Why might you want to always pull changes manually rather than having Git aut
 
 My manually pulling changes we have control over the changes happening in the local repository. Had it been automatic- it would be like dropbox and we are working on one things and something else which might have been linked will be changed automatically creating a messy situation.
 
+
+
+Lect 14:
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branch is branching out from a commit for a specific reason - like a feature, or experimenting a new version or seperating the production and the development version.
+
+Cloning is replicating the repository. It can be done on both  - local to local or github to local
+
+Forking can only be done on the GitHub. We we fork a repository a copy of it is created in our accounts repository section. Git also maintain the fork number to keep a track of number of times a repository is forked and for other analytics
+
