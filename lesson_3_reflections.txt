@@ -37,3 +37,13 @@ If I would have been working individually, then I would be copying and renaming 
 
 It is much more easier to have version control using git and git hub; then using the other means - irrespective to whether you are working individually or in team.
 
+
+Lect 31:
+
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Whenever we want to do something in isolation or in experimentation we should use branches. Example : Testing, Feature Development, Experimentation, New Version etc. We generally have a working / production code in the master and we dont intent to break it. 
+
+So, branching enables us to do exactly that. Plus as the master branch matures we can pull the updates in the separate branch as well so that we are using the most recently or updated version of the codes.
+
+
