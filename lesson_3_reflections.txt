@@ -19,3 +19,10 @@ Cloning is replicating the repository. It can be done on both  - local to local 
 
 Forking can only be done on the GitHub. We we fork a repository a copy of it is created in our accounts repository section. Git also maintain the fork number to keep a track of number of times a repository is forked and for other analytics
 
+
+Lect 22 :
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If we know the last known state of the remote stored locally, we can push the changes accordingly. Also, in the collabration mode, we could make out - if our master repo is ahead, behind or in sync with the remote master.
+
