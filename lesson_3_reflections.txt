@@ -26,3 +26,14 @@ Q. What is the benefit of having a copy of the last known state of the remote st
 
 If we know the last known state of the remote stored locally, we can push the changes accordingly. Also, in the collabration mode, we could make out - if our master repo is ahead, behind or in sync with the remote master.
 
+
+Lect 25:
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If I would have been collaborating without using Git or GitHub - then I would be using Dropbox or a Networked Folder. Also, we would be forced to share only the complete piece of code and would have to make efforts to maintain our individual locals which will introduce non standard practice.
+
+If I would have been working individually, then I would be copying and renaming project folder to archive the previous version. Though it works but it is not eligent and managable as git and git hub.
+
+It is much more easier to have version control using git and git hub; then using the other means - irrespective to whether you are working individually or in team.
+
